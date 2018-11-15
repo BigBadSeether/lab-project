@@ -1,0 +1,138 @@
+﻿id,Chapter,Questions,Incorrect Answers,Correct Answer
+1,1,Which question no longer concerns the modern software engineer?,Why does software take a long time to finish?/Why does it cost so much to develop a piece of software?/Why can’t software errors be removed from products prior to delivery?,Why does computer hardware cost so much?
+2,1,Software is a product and can be manufactured using the same technologies used for other engineering artifacts,TRUE,FALSE
+3,1,Software deteriorates rather than wears out because,Software suffers from exposure to hostile environments/Defects are more likely to arise after software has been used often/Software spare parts become harder to order,Multiple change requests introduce errors in component interactions
+4,1,"WebApps are a mixture of print publishing and software development, making their development outside the realm of software engineering practice.",TRUE,FALSE
+5,1,There are no real differences between creating WebApps and MobileApps.,TRUE,FALSE
+6,1,In its simplest form an external computing device may access cloud data services using a web browser.,FALSE,TRUE
+7,1,Product line software development depends the reuse of existing software components to provide software engineering leverage.,FALSE,TRUE
+8,2,Which of the items listed below is not one of the software engineering layers?,Process/Methods/Tools,Manufacturing
+9,2,Software engineering umbrella activities are only applied during the initial phases of software development projects.,TRUE,FALSE
+10,2,Which of these are the 5 generic software engineering framework activities?,"communication, risk management, measurement, production, reviewing/analysis, designing, programming, debugging, maintenance/analysis, planning, designing, programming, testing","communication, planning, modeling, construction, deployment"
+11,2,Planning ahead for software reuse reduces the cost and increases the value of the systems into which they are incorporated.,FALSE,TRUE
+12,2,"he essence of software engineering practice might be described as understand the problem, plan a solution, carry out the plan, and examine the result for accuracy.",FALSE,TRUE
+13,2,In agile process models the only deliverable work product is the working program.,FALSE,TRUE
+14,2,A most software development projects are initiated to try to meet some business need.,FALSE,TRUE
+15,2,In general software only succeeds if its behavior is consistent with the objectives of its designers.,TRUE,FALSE
+16,3,"	
+Which of the following are recognized process flow types?","Concurrent process flow/Iterative process flow/Linear process flow
+/Spiral process flow",both b and c
+17,3,"The communication activity is best handled for small projects using six distinct actions (inception, elicitation, elaboration, negotiation, specification, validation).
+",TRUE,FALSE
+18,3,"A good software development team always uses the same task set for every project to insure high quality work products
+",TRUE,FALSE
+19,3,"Software processes can be constructed out of pre-existing software patterns to best meet the needs of a software project.
+",FALSE,TRUE
+20,3,"Which of these are standards for assessing software processes?
+","SEI/SPICE/ISO 9000/ISO 9001
+
+",both b and d
+21,4,The waterfall model of software development is,A good approach when a working program is required quickly./The best approach to use for projects with large development teams./An old fashioned model that is rarely used any more.,A reasonable approach when requirements are well defined.
+22,4,The incremental model of software development is,A reasonable approach when requirements are well defined./The best approach to use for projects with large development teams./A revolutionary model that is not used for commercial products.,A good approach when a working core product is required quickly.
+23,4,Evolutionary software process models,Are iterative in nature./Can easily accommodate product requirements changes./Do not generally produce throwaway systems.,All of the above.
+24,4,The prototyping model of software development is,A reasonable approach when requirements are well defined./The best approach to use for projects with large development teams./A risky model that rarely produces a meaningful product.,A risky model that rarely produces a meaningful product.
+25,4,The spiral model of software development,Ends with the delivery of the software product./Is more chaotic than the incremental model./All of the above.,Includes project risks evaluation during each iteration.
+26,4,The concurrent development model is,Another name for concurrent engineering./Defines events that trigger engineering activity state transitions./Only used for development of parallel or distributed systems./Used whenever a large number of change requests are anticipated.,Both a and b
+27,4,The component-based development model is,Only appropriate for computer hardware design./Not able to support the development of reusable components./Not cost effective by known quantifiable software metrics.,Dependent on object technologies for support.
+28,4,The formal methods model of software development makes use of mathematical methods to,Define the specification for computer-based systems./Develop defect free computer-based systems./Verify the correctness of computer-based systems.,Construction phase
+29,4,Which of these is not one of the phase names defined by the Unified Process model for software development?,Inception phase/Elaboration phase/Construction phase,Practitioner requires careful supervision by the project manager.
+30,4,Which of these is not a characteristic of Personal Software Process?,Emphasizes personal measurement of work product./Individual practitioner is responsible for estimating and scheduling./Practitioner is empowered to control quality of software work products.,Show managers how to reduce costs and sustain quality
+31,4,Which of these are objectives of Team Software Process?,Accelerate software process improvement/Allow better time management by highly trained professionals/Build self-directed software teams/Show managers how to reduce costs and sustain quality,
+32,4,Process technology tools allow software organizations to compress schedules by skipping unimportant activities.,TRUE,FALSE
+33,4,It is generally accepted that one cannot have weak software processes and create high quality end products.,FALSE,TRUE
+34,5,Agility is nothing more than the ability of a project team to respond rapidly to change.,TRUE,FALSE
+35,5,Which of the following is not necessary to apply agility to a software process?,Only essential work products are produced/Process allows team to streamline tasks/Uses incremental product delivery strategy,Eliminate the use of project planning and testing
+36,5,How do you create agile processes to manage unpredictability?,Requirements gathering must be conducted very carefully/Risk analysis must be conducted before planning takes place/Software increments must be delivered in short time periods,Software processes must adapt to changes incrementally
+37,5,In agile software processes the highest priorities is to satisfy the customer through early and continuous delivery of valuable software.,FALSE,TRUE
+38,5,In agile development it is more important to build software that meets the customers’ needs today than worry about features that might be needed in the future.,FALSE,TRUE
+39,5,What are the four framework activities found in the Extreme Programming (XP) process model?,"analysis, design, coding, testing/planning, analysis, design, coding/planning, analysis, coding, testing","planning, design, coding, testing"
+40,5,All agile process models conform to a greater or lesser degree to the principles stated in the “Manifesto for Agile Software Development”.,FALSE,TRUE
+41,5,Which is not one of the key questions that is answered by each team member at each daily Scrum meeting?,What did you do since the last meeting?/What is the cause of the problem you are encountering?/What do you plan to accomplish be the next team meeting?,What obstacles are you creating?
+42,5,The Dynamic Systems Development Method (DSDM) suggests a philosophy that is based on the Pareto principle (80% of the application can be delivered in 20% of the time required to build the complete application).,FALSE,TRUE
+43,5,Agile Modeling (AM) provides guidance to practitioner during which of these software tasks?,Analysis/Design/Coding/Testing,Both a and b
+44,5,"Agile Unified Process uses the classic UP phased activities (inception, elaboration, construction, transition) to help the team visualize the overall process flow.",FALSE,TRUE
+45,6,"Human aspects of software engineering are not relevant in today’s agile process models.
+",TRUE,FALSE
+46,6,"Which of the following is not an important trait of an effective software engineer?
+",Attentive to detail/Brutally honest/Resilient under pressure,Follows process rule dogmatically
+47,6,"Group communication and collaboration are as important as the technical skills of an individual team member to the success of a team.
+",FALSE,TRUE
+48,6,"Teams with diversity in the individual team member skill sets tend to be more effective than teams without this diversity.
+",FALSE,TRUE
+49,6,"Which of the following can contribute to team toxicity?
+",Frenzied work atmosphere/Inadequate budget/Poorly coordinated software process/Unclear definition of team roles,"a, b, d"
+50,6,"Software engineering team structure is independent of problem complexity and size of the expected software products.
+",TRUE,FALSE
+51,6,"Agile teams are allowed to self-organize and make their own technical decisions.
+",FALSE,TRUE
+52,6,"In XP a metaphor is used as a device to facilitate communications among customers, team members, and managers?
+",FALSE,TRUE
+53,6,"Using an established social media platform negates the need to be concerned about privacy or security.
+",TRUE,FALSE
+54,6,"Use of cloud services can speed up information sharing among software team members?
+",FALSE,TRUE
+55,6,"In collaborative development environments, metrics are used to reward and punish team members.
+",TRUE,FALSE
+56,6,"Which of these factors complicate decision-making by global software teams
+",Complexity of problem/Different views of the problem/Law of unitended consequences/Risk associated with decision,All of the above
+57,7,Software engineering principles have about a three year half-life.,TRUE,FALSE
+58,7,Which of the following is not one of core principles of software engineering practice?,"All design should be as simple as possible, but no simpler./A software system exists only to provide value to its users./Remember that you produce others will consume.",Pareto principle (20% of any product requires 80% of the effort).
+59,7,Every communication activity should have a facilitator to make sure that the customer is not allowed to dominate the proceedings.,TRUE,FALSE
+60,7,The agile view of iterative customer communication and collaboration is applicable to all software engineering practice.,FALSE,TRUE
+61,7,One reason to involve everyone on the software team in the planning activity is to,adjust the granularity of the plan/control feature creep/understand the problem scope,get all team members to “sign up” to the plan
+62,7,Project plans should not be changed once they are adopted by a team.,TRUE,FALSE
+63,7,Requirements models depict software in which three domains?,"architecture, interface, component/cost, risk, schedule/None of the above","information, function, behavior"
+64,7,The design model should be traceable to the requirements model?,FALSE,TRUE
+65,7,Teams using agile software practices do not generally create models.,TRUE,FALSE
+66,7,Which of the following is not one of the principles of good coding?,"Create unit tests before you begin coding/Create unit tests before you begin coding/Write self-documenting code, not program documentation",Refractor the code after you complete the first coding pass
+67,7,A successful test I ones that discovers at least one as-yet undiscovered error.,FALSE,TRUE
+68,7,Which of the following are valid reasons for collecting customer feedback concerning delivered software?,Allows developers to make changes to the delivered increment/Delivery schedule can be revised to reflect changes/Developers can identify changes to incorporate into next increment,All of the above
+69,7,Larger programming teams are always more productive than smaller teams.,TRUE,FALSE
+70,8,Requirements engineering is a generic process that does not vary from one software project to another.,FALSE,TRUE
+71,8,During project inception the intent of the of the tasks are to determine,basic problem understanding/nature of the solution needed/people who want a solution/none of the above,"a, b, c"
+72,8,Three things that make requirements elicitation difficult are problems of,budgeting/scope/understanding/volatility,"b, c, d"
+73,8,A stakeholder is anyone who will purchase the completed software system under development.,TRUE,FALSE
+74,8,"It is relatively common for different customers to propose conflicting requirements, each arguing that his or her version is the right one.",FALSE,TRUE
+75,8,Which of the following is not one of the context-free questions that would be used during project inception?,What will be the economic benefit from a good solution?/Who is behind the request for work?/Who will use the solution?,Who will pay for the work?
+76,8,Non-functional requirements can be safely ignored in modern software development projects.,TRUE,FALSE
+77,8,In collaborative requirements gathering the facilitator,arranges the meeting place/can not be a customer/must be an outsider,controls the meeting
+78,8,Which of the following is not one of the requirement classifications used in Quality Function Deployment (QFD)?,exciting/expected/normal,mandatory
+79,8,The work products produced during requirement elicitation will vary depending on the,size of the budget/size of the product being built /software process being used/stakeholders needs,both a and b
+80,8,User stories are complete descriptions the user needs and include the non-functional requirements for a software increment.,FALSE,TRUE
+81,8,Developers and customers create use-cases to help the software team understand how different classes of end-users will use functions.,FALSE,TRUE
+82,8,"Use-case actors are always people, never system devices.",TRUE,FALSE
+83,8,The result of the requirements engineering task is an analysis model that defines which of the following problem domain(s)?,information/functional/behavioral,all of the above
+84,8,Analysis patterns facilitate the transformation of the analysis model into a design model by suggesting reliable solutions to common problems.,FALSE,TRUE
+85,8,In agile process models requirements engineering and design activities are interleaved.,FALSE,TRUE
+86,8,"In win-win negotiation, the customer’s needs are met even though the developer’s need may not be.",TRUE,FALSE
+87,8,In requirements validation the requirements model is reviewed to ensure its technical feasibility.,TRUE,FALSE
+88,8,The most common reason for software project failure is lack of functionality.,TRUE,FALSE
+89,9,Which of these is not an element of a requirements model?,Behavioral elements/Class-based elements/Scenario-based elements,Data elements
+90,9,Which of the following is not an objective for building a requirements model?,define set of software requirements that can be validated/describe customer requirements/establish basis for software design,develop an abbreviated solution for the problem
+91,9,Object-oriented domain analysis is concerned with the identification and specification of reusable capabilities within an application domain.,FALSE,TRUE
+92,9,In structured analysis models focus on the structure of the classes defined for a system along with their interactions.,TRUE,FALSE
+93,9,Creation and refinement of use cases if an important part of scenario-based modeling.,FALSE,TRUE
+94,9,It is important to consider alternative actor interactions when creating a preliminary use case.,TRUE,FALSE
+95,9,Brainstorming is one technique that may be used to derive a complete set of use case exceptions.,FALSE,TRUE
+96,9,In many cases there is no need to create a graphical representation of a usage scenario.,FALSE,TRUE
+97,9,UML activity diagrams are useful in representing which analysis model elements?,Behavioral elements/Class-based elements/Flow-based elements,Scenario-based elements
+98,9,UML swimnlane diagrams allow you to represent the flow of activities by showing the actors having responsibility for creating each data element.,TRUE,FALSE
+99,10,"Which of the following should be considered as candidate objects in a problem space?
+",events/people/structures,all of the above
+100,10,"In the grammatical parse of a processing narrative the nouns become object candidates in the analysis model.
+",FALSE,TRUE
+101,10,"Attributes are chosen for an object by examining the problem statement and identifying the entities that appear to be related.
+",TRUE,FALSE
+102,10,"Which of the following is not one of the broad categories used to classify operations?
+",computation/data manipulation/event monitors,transformers
+103,10,"Collaborators in CRC modeling are those classes needed to fulfill a responsibility on another card.
+",FALSE,TRUE
+104,10,"Which of the following items does not appear on a CRC card?
+",class collaborators/class name/class responsibilities,class reliability
+105,10,"Class responsibilities are defined by
+",its attributes only/its collaborators/ its operations only,both its attributes and operations
+106,10,"A stereotype is the basis for class reuse in UML modeling.
+",TRUE,FALSE
+107,10,"An analysis package involves the categorization of analysis model elements into useful groupings.
+",FALSE,TRUE
+,,,,
