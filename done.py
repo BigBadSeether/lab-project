@@ -23,16 +23,26 @@ def main():
 
 
 def create_quiz():
+    go = True
+    accepted_chapters = ['1','2','3','4','5','6','7','8','9','10']
     chapters = str(raw_input("\nWhat chapters would you like? (Input integers from 1-10 divided by commas; Ex: 1,3,5): "))
+    while go:
+        chapters_2 = chapters.split(",")
+        for chapter in chapters_2:
+            if chapter in accepted_chapters:
+                go = False
+                continue
+            else:
+                chapters = str(raw_input("\nPlease input a chapter 1-10: "))
     while True:
         try:
-            num = int(input("How many questions would you like per chapter? Please input a single integer greater than"
+            num = int(raw_input("How many questions would you like per chapter? Please input a single integer greater than"
                             " 0:"))
         except ValueError:
-            print("Please input an integer.")
+            print("\nPlease input an integer.\n")
             continue
         if num < 1:
-            print("Please input an integer that is greater than 0.")
+            print("\nPlease input an integer that is greater than 0\n")
             continue
         break
     return [chapters, num]
@@ -91,7 +101,18 @@ def choose_quiz():
                 print("Chapter: " + chapters[index])
             print("\n" + num_questions[0] + " questions per chapter")
 
-        user_choice = int(input("\nWhich quiz would you like to retake? (ex: '1')"))
+        while True:
+            try:
+                user_choice = int(raw_input("\nWhich quiz would you like to retake? (ex: '1')"))
+
+            except ValueError:
+                print("\nPlease input an integer.\n")
+                continue
+
+            if user_choice < quizzes_count and user_choice > 0:
+                break
+            print("\nPlease enter a quiz that is saved\n")
+
         user_quiz = total_quizzes[user_choice - 1]
         return user_quiz
 
